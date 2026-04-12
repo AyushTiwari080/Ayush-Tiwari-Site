@@ -6,6 +6,6 @@
 - [x] 3. git add .
 - [x] 4. git commit -m "Initial commit: Complete portfolio site"
 - [x] 5. git branch -M main
-- [ ] 6. git push -u origin main
+- [x] 6. git push -u origin main
 - [ ] 7. Deploy to Vercel via GitHub import
 

@@ -1,12 +1,13 @@
-# Task: Add Data Science & Analytics experience to portfolio
+# GitHub Upload and Deploy Plan
 
-## TODO Steps:
-- [x] 1. Create TODO.md with plan breakdown
-- [x] 2. Edit src/config.ts to insert new experience at index 2 (after Python Developer Intern)
-- [x] 3. Verify the change renders correctly in Career section
-- [x] 4. Complete task
+## Steps:
+- [ ] 1. Create this TODO.md for tracking.
+- [ ] 2. Stage and commit modified TODO-deploy.md.
+- [ ] 3. Push to origin main.
+- [ ] 4. Update TODO-deploy.md to mark step 6 complete.
+- [ ] 5. Guide for Vercel deployment.
+- [ ] 6. Test local build.
+- [ ] 7. Complete.
 
-## Plan Summary
-- Insert new experience object into config.experiences array in src/config.ts
-- Position: after Python Developer Intern (current index 1), before Bachelor of Technology
-- Data-driven update in Career.tsx, no component changes needed
+Current status: Ready for push. Remote: https://github.com/AyushTiwari080/Ayush-Tiwari-Website.git
+
