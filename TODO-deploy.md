@@ -6,6 +6,6 @@
 - [x] 3. git add .
 - [x] 4. git commit -m "Initial commit: Complete portfolio site"
 - [x] 5. git branch -M main
-- [x] 6. git push -u origin main
-- [ ] 7. Deploy to Vercel via GitHub import
+- [x] 6. git push -u origin main ✅ (LFS issue fixed via history rewrite)
+- [ ] 7. Deploy to Vercel: vercel.com > New Project > Import https://github.com/AyushTiwari080/Ayush-Tiwari-Website
 

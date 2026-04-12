@@ -57,9 +57,9 @@ const Scene = () => {
       loadCharacter().then((gltf) => {
         if (gltf) {
           const animations = setAnimations(gltf);
-          hoverDivRef.current && animations.hover(gltf, hoverDivRef.current);
+          if (hoverDivRef.current) animations.hover(gltf, hoverDivRef.current);
           mixer = animations.mixer;
-          let character = gltf.scene;
+          const character = gltf.scene;
           setChar(character);
           scene.add(character);
           headBone = character.getObjectByName("spine006") || null;
@@ -70,9 +70,10 @@ const Scene = () => {
               animations.startIntro();
             }, 2500);
           });
-          window.addEventListener("resize", () =>
-            handleResize(renderer, camera, canvasDiv, character)
-          );
+          window.addEventListener("resize", () => handleResize(renderer, camera, canvasDiv, character));
+        } else {
+          console.log('No character loaded - fallback mode');
+          progress.loaded().then(() => light.turnOnLights());
         }
       });
 

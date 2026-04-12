@@ -14,19 +14,17 @@ const setCharacter = (
   loader.setDRACOLoader(dracoLoader);
 
   const loadCharacter = () => {
-    return new Promise<GLTF | null>(async (resolve, reject) => {
+    return new Promise<GLTF | null>(async (resolve) => {
       try {
-        const encryptedBlob = await decryptFile(
+        const decryptedBuffer = await decryptFile(
           "/models/character.enc",
           "Character3D#@"
         );
-        const blobUrl = URL.createObjectURL(new Blob([encryptedBlob]));
-
-        let character: THREE.Object3D;
+        const blobUrl = URL.createObjectURL(new Blob([decryptedBuffer]));
         loader.load(
           blobUrl,
           async (gltf) => {
-            character = gltf.scene;
+            const character = gltf.scene;
             await renderer.compileAsync(character, camera, scene);
             character.traverse((child: any) => {
               if (child.isMesh) {
@@ -49,12 +47,12 @@ const setCharacter = (
           undefined,
           (error) => {
             console.error("Error loading GLTF model:", error);
-            reject(error);
+            resolve(null);
           }
         );
       } catch (err) {
-        reject(err);
-        console.error(err);
+        console.log("Decrypt skipped (crypto unavailable)");
+        resolve(null);
       }
     });
   };

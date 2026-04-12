@@ -1,6 +1,6 @@
 async function generateAESKey(password: string): Promise<CryptoKey> {
   if (typeof crypto === 'undefined' || !crypto.subtle) {
-    throw new Error('Web Crypto API not supported in this environment');
+    throw new Error('Web Crypto API not supported - use modern browser');
   }
   const passwordBuffer = new TextEncoder().encode(password);
   const hashedPassword = await crypto.subtle.digest("SHA-256", passwordBuffer);
