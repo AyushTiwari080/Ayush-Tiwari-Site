@@ -1,13 +1,9 @@
-# Deployment & GitHub Upload TODO
+# TODO: Fix C++ Icons on Vercel
 
-## Planned Steps (from BlackBOXAI)
-- [ ] Stage changes: `git add .`
-- [ ] Commit updates
-- [ ] Update remote to Ayush-Tiwari-Site if needed: `git remote set-url origin https://github.com/AyushTiwari080/Ayush-Tiwari-Site.git`
-- [ ] Push to GitHub: `git push origin main`
-- [ ] Install Vercel CLI: `npm i -g vercel`
-- [ ] Vercel login & deploy: `vercel --prod`
-- [ ] Verify live site & auto-deploys
+## Plan Steps:
+- [x] Step 1: Edit TechStackPyramid.tsx - Replace all problematic local image paths (C++, Tailwind CSS, etc.) with reliable devicon CDN SVGs.
+- [x] Step 2: Local test with `npm run dev`.
+- [x] Step 3: Deploy to Vercel and verify live site.
 
-## Progress Tracking
+**Status: Edits done, local works. Investigating Vercel deploy issue.**
 

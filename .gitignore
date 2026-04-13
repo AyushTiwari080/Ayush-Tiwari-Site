@@ -29,3 +29,6 @@ backup/
 redoxchess-engine/
 public/models/character.glb
 public/models/character.enc
+
+.vercel
+.env*.local

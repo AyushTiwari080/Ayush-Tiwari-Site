@@ -10,16 +10,16 @@ interface TechItem {
 const techStack: TechItem[][] = [
   // Row 1 - 10 items
   [
-    { name: "Python", icon: "/images/Python.png.png", url: "https://python.org" },
-    { name: "JavaScript", icon: "/images/JavaScript.png.png", url: "https://javascript.com" },
-    { name: "C++", icon: "/images/C++ (CPlusPlus).png.png", url: "https://cplusplus.com" },
-    { name: "HTML5", icon: "/images/HTML5.png.png", url: "https://html5.org" },
-    { name: "CSS3", icon: "/images/CSS3.png.png", url: "https://css3.org" },
-    { name: "Tailwind CSS", icon: "/images/Tailwind CSS.png.png", url: "https://tailwindcss.com" },
-    { name: "NumPy", icon: "/images/NumPy.png.png", url: "https://numpy.org" },
-    { name: "Pandas", icon: "/images/Pandas.png.png", url: "https://pandas.pydata.org" },
-    { name: "Jupyter", icon: "/images/Jupyter.png.png", url: "https://jupyter.org" },
-    { name: "MySQL", icon: "/images/MySQL.png.png", url: "https://mysql.com" },
+{ name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", url: "https://python.org" },
+{ name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", url: "https://javascript.com" },
+{ name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg", url: "https://cplusplus.com" },
+{ name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", url: "https://html5.org" },
+{ name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", url: "https://css3.org" },
+{ name: "Tailwind CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg", url: "https://tailwindcss.com" },
+{ name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg", url: "https://numpy.org" },
+{ name: "Pandas", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg", url: "https://pandas.pydata.org" },
+{ name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg", url: "https://jupyter.org" },
+{ name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", url: "https://mysql.com" },
   ],
   // Row 2 - 8 items
   [
