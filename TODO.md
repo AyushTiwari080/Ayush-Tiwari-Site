@@ -5,5 +5,5 @@
 - [x] Step 2: Local test with `npm run dev`.
 - [x] Step 3: Deploy to Vercel and verify live site.
 
-**Status: Edits done, local works. Investigating Vercel deploy issue.**
+**Status: Complete - Edits done, local verified, git push needed after merge for Vercel deploy.**
 
