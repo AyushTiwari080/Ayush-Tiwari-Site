@@ -1,13 +1,13 @@
-# GitHub Upload and Deploy Plan
+# Deployment & GitHub Upload TODO
 
-## Steps:
-- [x] 1. Create this TODO.md for tracking.
-- [x] 2. Stage and commit modified TODO-deploy.md.
-- [x] 3. Push to origin main. ✅ Repo: https://github.com/AyushTiwari080/Ayush-Tiwari-Website
-- [ ] 4. Update TODO-deploy.md to mark step 6 complete.
-- [ ] 5. Guide for Vercel deployment.
-- [ ] 6. Test local build.
-- [ ] 7. Complete.
+## Planned Steps (from BlackBOXAI)
+- [ ] Stage changes: `git add .`
+- [ ] Commit updates
+- [ ] Update remote to Ayush-Tiwari-Site if needed: `git remote set-url origin https://github.com/AyushTiwari080/Ayush-Tiwari-Site.git`
+- [ ] Push to GitHub: `git push origin main`
+- [ ] Install Vercel CLI: `npm i -g vercel`
+- [ ] Vercel login & deploy: `vercel --prod`
+- [ ] Verify live site & auto-deploys
 
-✅ Uploaded to GitHub! Deploy to Vercel next.
+## Progress Tracking
 
