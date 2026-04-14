@@ -1,9 +1,10 @@
-# TODO: Fix C++ Icons on Vercel
+# Resume Link Task
 
-## Plan Steps:
-- [x] Step 1: Edit TechStackPyramid.tsx - Replace all problematic local image paths (C++, Tailwind CSS, etc.) with reliable devicon CDN SVGs.
-- [x] Step 2: Local test with `npm run dev`.
-- [x] Step 3: Deploy to Vercel and verify live site.
+## Steps:
+- [x] Step 1: Update src/config.ts to add resume URL to contact object
+- [x] Step 2: Update src/components/SocialIcons.tsx to use config.contact.resume with target="_blank"
+- [x] Step 3: Test the link opens in new tab
+- [x] Step 4: Mark complete
 
-**Status: Complete - Edits done, local verified, git push needed after merge for Vercel deploy.**
+**Task complete: Resume button now links to the Google Drive PDF and opens in a new tab.**
 

@@ -106,7 +106,8 @@ export const config = {
         email: "ayushtiwari7781@gmail.com",
         github: "https://github.com/AyushTiwari080",
         linkedin: "https://linkedin.com/in/ayush-tiwari-074298216",
-        portfolio: "https://ayush-tiwari-web.netlify.app"
+        portfolio: "https://ayush-tiwari-web.netlify.app",
+        resume: "https://drive.google.com/file/d/1ZfjX194HQqi8yMe3dnW-ZIbe9jHWuP2f/view?usp=sharing"
     },
     skills: {
         develop: {
